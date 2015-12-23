@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_transaparence_line"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/magrin_hole"
+            android:layout_marginRight="@dimen/magrin_hole"
+            android:src="@drawable/hole"
+            android:id="@+id/img1"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/magrin_hole"
+            android:layout_marginRight="@dimen/magrin_hole"
+            android:src="@drawable/hole"
+            android:id="@+id/img2"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/magrin_hole"
+            android:layout_marginRight="@dimen/magrin_hole"
+            android:src="@drawable/hole"
+            android:id="@+id/img3"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/magrin_hole"
+            android:layout_marginRight="@dimen/magrin_hole"
+            android:src="@drawable/hole"
+            android:id="@+id/img4"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding_left_hold_small"
+                    android:layout_marginLeft="@dimen/padding_left_hold_small"
+                    android:layout_marginRight="@dimen/padding_left_hold_small"
+                    android:src="@drawable/hole_small" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding_left_hold_small"
+                    android:layout_marginLeft="@dimen/padding_left_hold_small"
+                    android:layout_marginRight="@dimen/padding_left_hold_small"
+                    android:src="@drawable/hole_small" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_left_header"
+                    android:layout_marginRight="@dimen/padding_left_hold_small"
+                    android:src="@drawable/stork_black" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_left_hold_small"
+                    android:layout_marginRight="@dimen/padding_left_hold_small"
+                    android:src="@drawable/stork_white" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

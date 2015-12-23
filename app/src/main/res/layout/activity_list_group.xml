@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"  tools:context=".MainActivity"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:gravity="top|center">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/actionbar_padding_title"
+        android:paddingBottom="@dimen/actionbar_padding_title"
+        android:background="@drawable/bg_header_light"
+        >
+        <ImageView
+            android:layout_width="@dimen/width_img_actionbar"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:layout_centerVertical="true"
+            android:id="@+id/back" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Group Name 1"
+            android:textAlignment="center"
+            android:textSize="@dimen/font_screen_home"
+            android:gravity="center"
+            android:textColor="@color/colorBrown"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:layout_width="@dimen/width_img_actionbar"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pen"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/btnedit" />
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="top|center">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:paddingTop="@dimen/actionbar_padding_title"
+            android:paddingBottom="@dimen/actionbar_padding_title"
+            android:background="@drawable/bg_header"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dot"
+                android:layout_centerVertical="true"
+                android:paddingRight="@dimen/padding_right_dot"
+                android:id="@+id/dot"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name 1"
+                android:textSize="@dimen/font_screen_list_group"
+                android:textColor="@color/colorBrown"
+                android:layout_toRightOf="@+id/dot"
+                android:layout_centerVertical="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2324"
+                android:textSize="@dimen/font_screen_list_group"
+                android:textColor="@color/colorBrown"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/next"
+                android:id="@+id/point"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/next"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="@dimen/padding_right_dot"
+                android:id="@+id/next"
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

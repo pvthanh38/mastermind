@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">mastermind</string>
+    <!-- activity_main-->
+    <string name="single_player">SINGLE PLAYER</string>
+    <string name="multi_player">MULTI PLAYER CONTEST</string>
+    <string name="quit">QUIT</string>
+    <!-- Edit text form_create_group-->
+    <string name="create_group">Create Group Players</string>
+    <string name="add_more">ADD MORE</string>
+    <string name="save">SAVE</string>
+    <string name="group_name">Group name</string>
+    <string name="username">Username</string>
+    <string name="fullname">Full name</string>
+    <!-- group_search-->
+    <string name="search">Search</string>
+    <!-- activity_play-->
+    <string name="exit">EXIT</string>
+    <string name="finish">FINISH</string>
+</resources>
